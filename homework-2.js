@@ -28,7 +28,6 @@ console.log(Math.min(2, 34, 99, 3, 22, 36, 733, 18));
 console.log(Math.random() * (19 - 3) + 3);
 
 // Завдання 5
-
 let result = 5 + 5 + '5' ;
 // let resultt;
 // resultt = 5 + 5 + '5' ;
@@ -36,13 +35,18 @@ console.log(result);
 console.log(typeof result);
 
 // Завдання 6
-
 const email = 'koliunia2006@gmail.com';
 console.log(email.length);
 console.log(email.includes('@'));
 
 // Завдання 7
+const a = 'My';
+const b = 'name';
+const c = 'is';
+const fullname = a + b + c + 'Victor';
+console.log(fullname);
 
+// Завдання 8
 const userName = 'Nick';
 let payment = 300;
 alert('Дякуємо, Nick! До сплати 300 гривень');
