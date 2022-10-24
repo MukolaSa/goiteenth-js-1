@@ -39,15 +39,42 @@
     // console.log(Math.roundrandomNumber);
     // 11. Напиши скрип який буде збільшувати заробітню платню робітника на 10%. Початкова сума зп - 25000.589612 грн. Результат округли до сотої та виведи в консоль.
 
-    console.log(Boolean(5));
+    // console.log(Boolean(5));
     // 5(ture), null,0 , undefined, NaN, false
     // все крім nuull, 0, '', undefined, NaN
-    console.log(5 && 7 && 5 && 'mdkcicni' && "hfvfsfsdjkfdh");
+    // console.log(5 && 7 && 5 && 'mdkcicni' && "hfvfsfsdjkfdh");
     // зупиняється на брехні
-    console.log(null || 0 || 5 || 0);
+    // console.log(null || 0 || 5 || 0);
     // зупиняється на правді
-    console.log(!0);
+    // console.log(!0);
     // не 0 (ture)
+
+
+    // const salary = 5000;
+    // const a = 'string';
+    // const f = false;
     
+
+    // console.log(Boolean(NaN));
+
+    // if (salary <= 5000 && salary > 6000) {
+    //     console.log('good');
+    // } else if (salary !== 4000){
+    //     console.log('not bad');
+    // } else {
+    //     console.log('looser');
+    // }
     
+
+// напистаи цикл який буде додавати до зарплати 200$ якщо зп більше 5000$
+    const salary = 4000;
+
+    for(let salary = 5000; salary <= 6000; salary += 200){
+        if (salary >= 5000) {
+            console.log(salary);
+            console.log('ваша зарплата піднята');
+        } else if (salary < 5000){
+            console.log('йти працюй');
+        }
+    }
     

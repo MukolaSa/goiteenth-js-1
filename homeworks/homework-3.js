@@ -31,11 +31,20 @@ if (yourName.length > 4 && surname.length > 5) {
 }
 
 // Завдання 4
-if (1 <= 5) {
-    console.log(Math.round(Math.random() * (5 - 1) + 1))
-} else {
-    console.log(' ');
+const random = Math.random() * (6 - 0) + 0;
+console.log(Number.parseInt(random));
+if (random > 0 && random <= 1) {
+    console.log(1);
+} else if (random >= 2 && random < 3) {
+    console.log(2);
+} else if (random >= 3 && random < 4) {
+    console.log(3);
+} else if (random >= 4 && random < 5) {
+    console.log(4);
+} else if (random >= 5 && random < 6) {
+    console.log(5)
 }
+
 
 // Завдання 5
 let lang;
