@@ -67,14 +67,64 @@
     
 
 // напистаи цикл який буде додавати до зарплати 200$ якщо зп більше 5000$
-    const salary = 4000;
+    // const salary = 4000;
 
-    for(let salary = 5000; salary <= 6000; salary += 200){
-        if (salary >= 5000) {
-            console.log(salary);
-            console.log('ваша зарплата піднята');
-        } else if (salary < 5000){
-            console.log('йти працюй');
-        }
-    }
+    // for(let salary = 5000; salary <= 6000; salary += 200){
+    //     if (salary >= 5000) {
+    //         console.log(salary);
+    //         console.log('ваша зарплата піднята');
+    //     } else if (salary < 5000){
+    //         console.log('йти працюй');
+    //     }
+    // }
     
+
+
+    // ===============================================================================
+    // // перелічити всі елементи масиву в консолі і додати до них oops
+    // const array = ['Mango','Pan','Cat','Year'];
+    // const lastIndex = array.length -1;
+
+    // for(let i = 0; i <= lastIndex; i ++){
+    //     array[i] += 'oops'
+    //     console.log(array[i]);
+
+    // }
+    // const array = ['audi', 'mercedes', 'bmw'];
+    // const lastIndex = array.length -1;
+    // for(let i = 0; i <= lastIndex; i++){
+    // console.log(array[i]);
+    // }
+
+    // const message = 'Welcome to Ukraine!'
+
+    // ================================================================================
+    // concat
+    const names = ['Nick', 'Olya', 'Bob'];
+    const age = [15, 14, 18];
+
+    const sum = age.concat(names);
+    console.log(sum);
+
+    // ================================================================================
+    // splice
+    const phones = ['apple', 'xiaomy', 'huawei'];
+    phones.splice(2, 0, 'iphone');
+    console.log(phones);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
