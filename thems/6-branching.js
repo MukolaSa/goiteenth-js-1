@@ -73,6 +73,3 @@ if (s >= 1000 || s < 1000) {
 } else {
     console.log('bad');
 }
-
-
-

@@ -69,18 +69,23 @@ alert(a10);
 // Завдання 6
 let height = 23;
 let width = 10;
-let s = 230;
-
+let s = height * width;
+console.log(s);
 // Завдання 7
 const heightC = 10;
 const dC = 4 ;
-const v = 40;
+const v = heightC * dC;
+console.log(v);
 
 // Завдання 8
 const n = 3;
 const m = 4;
 const k = (n**2) + (m**2);
 console.log(k);
+
+
+
+
 
 
 
